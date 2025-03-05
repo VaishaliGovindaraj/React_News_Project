@@ -1,0 +1,32 @@
+.main_content_div{
+    color:black;
+    flex-basis: 50%;
+    text-align: center;
+    padding:8px;
+    margin:8px;
+}
+
+.news_div{
+    color:black;   
+    background-color: rgb(199, 196, 196);
+    padding: 16px;
+    border: solid 2px black;
+}
+
+.category_name{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.headline{
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.image{
+    width:100%;
+    height:auto;
+}
+
+

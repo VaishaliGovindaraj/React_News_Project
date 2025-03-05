@@ -1,0 +1,15 @@
+.featured_div{
+    flex-grow: 0.65;
+    display:flex;
+    margin:16px;
+    padding:8px;
+    border: 2px solid black;
+}
+
+.rightContainer{
+    flex-basis: 25%;
+}
+
+.leftContainer{
+    flex-basis: 25%;
+}

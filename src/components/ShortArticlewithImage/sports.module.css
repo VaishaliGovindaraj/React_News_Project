@@ -1,0 +1,22 @@
+.sports_div{
+    flex-basis: 25%;
+    margin: 8px;
+}
+
+.image{
+    width:100%;
+    height:auto;
+}
+
+.sports_div{
+    color:black;   
+    background-color: rgb(199, 196, 196);
+    padding: 8px;
+    border-bottom: 2px solid black;
+}
+
+.headline{
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+}

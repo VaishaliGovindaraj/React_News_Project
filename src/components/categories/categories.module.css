@@ -1,0 +1,18 @@
+.category_title{
+    text-align: center;
+    color: black;
+}
+
+.category_div{
+    display: flex;
+    margin:8px;
+    padding: 8px;
+}
+
+.sports_div{
+    color:black;   
+    background-color: rgb(199, 196, 196);
+    padding: 8px;
+    border-bottom: 2px solid black;
+    flex-basis: 100%
+}

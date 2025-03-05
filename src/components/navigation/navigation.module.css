@@ -1,0 +1,22 @@
+.nav_menu{
+    display:flex;
+    color: beige;
+    background-color:rgb(45, 44, 44); 
+    justify-content: space-around;
+    padding: 8px;
+}
+
+.nav_menu p{
+    background-color: antiquewhite;
+    color: rgb(45, 44, 44); 
+    padding: 16px;
+    margin:8px;
+}
+
+.date{
+    background-color: rgb(141, 236, 194);
+    color: rgb(45, 44, 44); 
+    padding: 16px;
+    margin:8px;
+    font-size: 1.25rem;
+}
