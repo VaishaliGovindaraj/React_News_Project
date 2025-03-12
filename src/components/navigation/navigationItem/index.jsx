@@ -1,9 +1,14 @@
 import styles from './naviItem.module.css';
 
-const NavItem = ({title, link ="#"}) => {
+const NavItem = ({title, onClick}) => {
+
+    console.log(title);
+
     return (
-        <a className={styles.naviItem} href={link}>{title}</a>
+        <button className={styles.naviItem} onClick={onClick}>{title}</button>
     )
+
+
 }
 
 export default NavItem;

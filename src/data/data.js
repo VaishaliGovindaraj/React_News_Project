@@ -56,16 +56,18 @@ const returnArticle = (articlesArray) =>{
 
 export const MainArticle = returnArticle(articles);
 
-export const SportsCategory = articles.filter(item => item.category.toLowerCase() === "sport" );
-console.log(SportsCategory);
+export const sportsCategory = articles.filter(item => item.category.toLowerCase() === "sport" );
 
-export const sportsArticles = [returnArticle(SportsCategory), returnArticle(SportsCategory)];
+
+export const sportsArticles = [returnArticle(sportsCategory), returnArticle(sportsCategory)];
 console.log(sportsArticles)
 
 
 
-export const SwedenCategory = articles.filter(item => item.category.toLowerCase() === "sweden" )
-export const WorldCategory = articles.filter(item => item.category.toLowerCase() === "world" )
-export const CrimeCategory = articles.filter(item => item.category.toLowerCase() === "crime" )
-export const EntertainmentCategory = articles.filter(item => item.category.toLowerCase() === "entertainment" )
-export const recentArticles = [returnArticle(SwedenCategory), returnArticle(CrimeCategory), returnArticle(EntertainmentCategory),returnArticle(WorldCategory)]
+export const swedenCategory = articles.filter(item => item.category.toLowerCase() === "sweden" )
+export const worldCategory = articles.filter(item => item.category.toLowerCase() === "world" )
+export const crimeCategory = articles.filter(item => item.category.toLowerCase() === "crime" )
+export const entertainmentCategory = articles.filter(item => item.category.toLowerCase() === "entertainment" )
+export const recentArticles = [returnArticle(swedenCategory), returnArticle(crimeCategory), returnArticle(entertainmentCategory),returnArticle(worldCategory)]
+
+export const allArticlesArray = [...articles]

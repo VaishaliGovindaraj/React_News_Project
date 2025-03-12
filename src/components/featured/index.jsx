@@ -5,15 +5,16 @@ import {MainArticle, sportsArticles, recentArticles } from '../../data/data'
 import ShortArticleWithImage from '../ShortArticlewithImage';
 
 
-const Featured = () => {
+const Featured = ({chosenArticle}) => {
+  
     return(
     <div className={styles.featured_div}>
         <div className = {styles.leftContainer}>
-            {recentArticles.map((item,index) => <Recent_News key={index} article={item} />)}
+            {recentArticles.map((item,index) => <Recent_News key={index} article={item} articleClick={chosenArticle} />)}
         </div>
-        <Main_Content article={MainArticle}/>
+        <Main_Content article={MainArticle} articleClick={chosenArticle} />
         <div className = {styles.rightContainer}>
-            {sportsArticles.map((item,index) => <ShortArticleWithImage key={index} article={item} />)}
+            {sportsArticles.map((item,index) => <ShortArticleWithImage key={index} article={item} articleClick={chosenArticle} />)}
         </div>
     </div>
     )

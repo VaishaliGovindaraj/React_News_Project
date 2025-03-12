@@ -7,9 +7,15 @@
 }
 
 .rightContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     flex-basis: 25%;
 }
 
 .leftContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     flex-basis: 25%;
 }

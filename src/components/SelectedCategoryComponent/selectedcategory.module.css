@@ -1,0 +1,22 @@
+.category_title{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+.category_div{
+    display: grid;
+    grid-template: repeat(2,1fr)/repeat(3,1fr);
+    margin:8px;
+    padding: 8px;
+}
+
+.article_div{
+    color:black;   
+    background-color: rgb(199, 196, 196);
+    padding: 8px;
+    border-bottom: 2px solid black;
+    display:flex;
+    flex-direction: column;
+    margin:32px;
+}
